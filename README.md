@@ -34,7 +34,7 @@ All placeholders should be surrounded with curly brackets (for example: `{reason
 Most people would want to just use the Google Spreadsheet which are where all the UBL bans are stored, however there are legitimate use-cases for wanting to use your own ban list.\
 You can use your own ban list as long as it can be provided in URL format. This means you can use HTTP(S) URL's, or a URL to a local file.
 
-URL examples:
+URL examples:\
 `https://example.com/ubl_ban_list.csv` - HTTP(S)\
 `file:///C:/Users/MyUser/Desktop/ubl_ban_list.csv` Local file (Windows)\
 `file:///srv/myserverdirectory/plugins/UniversalBanList/my_custom_ban_list.csv` Local file (Linux)\
