@@ -1,0 +1,11 @@
+name: UniversalBanList
+description: Automatically prevents players on the Universal Ban List from joining the server
+author: Paragon Games
+main: rip.paragon.universalbanlist.UniversalBanList
+version: ${git.branch}/${git.commit.id.abbrev}
+website: "https://github.com/paragongames/UniversalBanList"
+
+commands:
+  ublversion:
+    description: Gets the version of the plugin (Git branch + commit hash)
+    aliases: ["ublver"]

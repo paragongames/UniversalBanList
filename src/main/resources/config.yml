@@ -1,0 +1,25 @@
+# The URL to receive the ban list data from. Should be in CSV format.
+url: "https://docs.google.com/spreadsheet/ccc?key=0AjACyg1Jc3_GdEhqWU5PTEVHZDVLYWphd2JfaEZXd2c&output=csv"
+
+# The kick messages if a player is on the Universal Ban List.
+# Supports multiple lines.
+#
+# Placeholders:
+# {reason} - the ban reason
+# {banDate} - the date the ban was added to the Universal Ban List
+# {banLength} - the original ban length (not the current remaining time.) Will not work for permanent bans.
+# {expireDate} - the date when the ban expires. Will not work for permanent bans.
+# {case} - the URL to the courtroom case
+kickMessages:
+  permanent:
+    - "&cYou are currently on the Universal Ban List."
+    - "&cReason: {reason}"
+    - "&cDate banned: {banDate}"
+    - "&cCase: {case}"
+    - "&cThis ban never expires."
+  temporary:
+    - "&cYou are currently on the Universal Ban List."
+    - "&cReason: {reason}"
+    - "&cDate banned: {banDate}"
+    - "&cCase: {case}"
+    - "&cExpires on {expireDate}"
