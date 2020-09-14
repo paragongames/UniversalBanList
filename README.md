@@ -57,3 +57,9 @@ Pull requests with appropriate changes are welcome. All Maven artifacts used are
 available to the public Internet (like an artifact that requires authentication or similar.)
 
 This project is licensed under the MIT License.
+
+## Known won't-fix issues
+Unfortunately, some ban entries on the Universal Ban List spreadsheet contains malformed data, like invalid characters, so some bans listed on the spreadsheet will not be loaded
+by the plugin.\
+This is unfortunately due to the irresponsibility of the Reddit UHC/UBL admins as these malformed entries have not been fixed for months. We do not take responsibility for
+these malformed entries.
