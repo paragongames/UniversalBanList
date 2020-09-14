@@ -28,7 +28,7 @@ All placeholders should be surrounded with curly brackets (for example: `{reason
 `banDate` The date the ban was made\
 `banLength` The original length of the ban, will be "Forever" if permanent\
 `expireDate` The date when the ban expires, will be "Never" if permanent\
-`case` The URL to the courtroom case on Reddit, usually something like `https://redd.it/<uid>`\
+`case` The URL to the courtroom case on Reddit, usually something like `https://redd.it/<uid>`
 
 ### Using your own ban list
 Most people would want to just use the Google Spreadsheet which are where all the UBL bans are stored, however there are legitimate use-cases for wanting to use your own ban list.\
